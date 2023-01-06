@@ -1,0 +1,9 @@
+package com.durgesh.repo;
+
+import com.durgesh.model.Employee;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface UserRepo extends JpaRepository<Employee,Long> {
+}
